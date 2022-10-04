@@ -4,7 +4,7 @@ import Blockbuster from "../db/models/blockbuster.model";
 import comments from "../db/models/coments.model";
 import {Comment} from "../services/coments.service"
 const url: string = `http://www.omdbapi.com/?t=`;
-const apiKey: string = `d92c2f98`;
+const apiKey: string = ` d92c2f98`;
 
 export type Movie = {
   id?: number;

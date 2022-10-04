@@ -16,7 +16,7 @@ exports.BlockbusterService = void 0;
 const axios_1 = __importDefault(require("axios"));
 const blockbuster_model_1 = __importDefault(require("../db/models/blockbuster.model"));
 const url = `http://www.omdbapi.com/?t=`;
-const apiKey = `d92c2f98`;
+const apiKey = ` d92c2f98`;
 class BlockbusterService {
     constructor(blockbusterModel) {
         this.blockbusterModel = blockbusterModel;
